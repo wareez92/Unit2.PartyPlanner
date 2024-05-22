@@ -27,7 +27,10 @@ const render = async () => {
     partyItem.innerHTML = `<h3>${party.name}</h3>
                             <p>${party.location}</p> 
                             <p>${party.date}</p>
-                            <button class="delete-party">Delete</button>`;
+                            <button class="delete-party">Delete</button>
+                            <button class="details">Details</button>
+`;
+
     return partyItem;
   });
   partyList.replaceChildren(...partyItems);
