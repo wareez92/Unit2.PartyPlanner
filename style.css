@@ -1,0 +1,86 @@
+:root {
+  box-sizing: content-box;
+}
+
+body {
+  margin: 0;
+  /* padding: 0; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 480px;
+  min-width: 480px;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgb(58, 122, 219);
+  padding: 1em;
+  margin: 0;
+  color: white;
+  text-shadow: rgb(65, 54, 133) 1px 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#partyList {
+  display: flex;
+  flex-direction: column;
+  line-height: 0.1em;
+  background-color: rgb(189, 255, 255);
+  /* border: solid 1px black; */
+  padding: 1em;
+  border-radius: 0.4em;
+  box-shadow: 1px 1px 40px rgb(130, 128, 128);
+}
+
+section {
+  border-bottom: 1px solid rgb(158, 156, 156);
+  margin: 1em;
+  padding-bottom: 1.5em;
+}
+
+section:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0.1em;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: rgb(71, 122, 179);
+  font-weight: 900;
+  font-size: 1em;
+  line-height: .35;
+}
+
+p {
+  color: rgb(83, 80, 88);
+  font-size: 0.9em;
+}
+
+button {
+  float: right;
+  background-color: rgb(84, 126, 204);
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 0.2em;
+  color: white;
+  font-weight: 550;
+  /* text-shadow: 1px 1px rgb(128, 90, 70); */
+  letter-spacing: 0.1em;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: rgb(166, 85, 85);
+  transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
