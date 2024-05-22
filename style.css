@@ -80,13 +80,8 @@ button {
   cursor: pointer;
   text-transform: uppercase;
 }
-button:hover {
-    background-color: rgb(90, 21, 99);
-    transition: all 400ms ;
-}
-
 
 button:active {
   background-color: rgb(166, 85, 105);
-  transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: background-color 0s;
 }
