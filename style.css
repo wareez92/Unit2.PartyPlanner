@@ -28,7 +28,7 @@ h1 {
   margin: 0;
   color: white;
   text-shadow: rgb(65, 54, 133) 1px 1px;
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #partyList {
@@ -58,7 +58,7 @@ h3 {
   color: rgb(71, 122, 179);
   font-weight: 900;
   font-size: 1em;
-  line-height: .35;
+  line-height: 0.35;
 }
 
 p {
@@ -70,17 +70,23 @@ button {
   float: right;
   background-color: rgb(84, 126, 204);
   border: none;
-  padding: 0.5em 1em;
+  padding: 0.8em 4em;
   border-radius: 0.2em;
   color: white;
-  font-weight: 550;
-  /* text-shadow: 1px 1px rgb(128, 90, 70); */
-  letter-spacing: 0.1em;
-  font-size: 0.8em;
+  font-weight: 700;
+  text-shadow: 1px 1px  rgb(46, 91, 154);
+  /* letter-spacing: 0.2em; */
+  font-size: 0.7em;
   cursor: pointer;
+  text-transform: uppercase;
+}
+button:hover {
+    background-color: rgb(90, 21, 99);
+    transition: all 400ms ;
 }
 
+
 button:active {
-  background-color: rgb(166, 85, 85);
+  background-color: rgb(166, 85, 105);
   transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
